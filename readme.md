@@ -25,7 +25,8 @@ Listens to Twitch channel point redemptions and sends messages to Adafruit IO
 3. in the Applications panel, click "Register your Application" button
 4. name and category can be whatever you want, OAuth Redirect URLs must be http://localhost:17563 
 5. this will give you a Client ID and a Client Secret. IMPORTANT: keep the Client Secret somewhere safe. You will not be able to access this again. If you lose it, you can generate a new one but it will need to be updated wherever you use it (i.e. in the code).
-6. In private_const.py file: (NOTE: do not remove the ''s)
+6. Rename private_const_template.py to private_const.py
+7. In private_const.py file: (NOTE: do not remove the ''s)
 - replace YOUR_APP_ID with the Twitch application Client ID
 - YOUR_APP_SECRET with the Twitch application Client Secret 
 - YOUR_TWITCH_USERNAME with your Twitch username
